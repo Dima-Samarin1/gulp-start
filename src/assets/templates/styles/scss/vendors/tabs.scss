@@ -1,0 +1,15 @@
+.tab {
+	padding: 11px 26px 12px;
+}
+.tabs--active {
+	border-radius: 5px;
+	background-color: #f0f0f4;
+	font-weight: 700;
+	color: #000;
+}
+.tabs-content {
+	display: none;
+}
+.tabs-content--active {
+	display: block;
+}

@@ -1,0 +1,25 @@
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.vk {
+  &__icons {
+    fill: var(--vk);
+  }
+}
+.ok {
+  &__icons {
+    fill: var(--ok);
+  }
+}
+.telegram {
+  &__icons {
+    fill: var(--telegram);
+  }
+}
+.youtube {
+  &__icons {
+    fill: var(--youtube);
+  }
+}
