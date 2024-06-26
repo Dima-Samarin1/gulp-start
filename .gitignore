@@ -1,0 +1,5 @@
+
+node_modules
+dist
+version.json
+package-lock.json

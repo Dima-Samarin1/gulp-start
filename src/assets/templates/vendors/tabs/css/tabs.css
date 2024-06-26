@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.tabs__wrapper {
+	margin-bottom: 20px;
+}
+
+.tabs {
+	display: flex;
+	border-bottom: 2px solid #ccc;
+}
+
+.tab {
+	padding: 10px 20px;
+	text-decoration: none;
+	color: #333;
+	border: 2px solid transparent;
+	transition: all 0.3s ease;
+}
+
+.tab:hover,
+.tabs--active {
+	border-bottom: 2px solid #333;
+	background-color: #f1f1f1;
+}
+
+.tabs-container {
+	overflow: hidden;
+}
+
+.tabs-content {
+	display: none;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-top: none;
+	animation: fadeIn 0.5s;
+}
+
+.tabs-content--active {
+	display: block;
+}
+
+@keyframes fadeIn {
+	from {
+			opacity: 0;
+	}
+	to {
+			opacity: 1;
+	}
+}

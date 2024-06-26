@@ -1,0 +1,57 @@
+{
+	"svguse": {
+		"scope": "html",
+		"prefix": "d-use",
+		"body": [
+			"<svg class=\"icons\">",
+			"  <use xlink:href=\"assets/templates/img/sprite.svg#$2\"></use>",
+			"</svg>"
+		],
+		"description": "Snippet for use svg sprites"
+	},
+	"burger": {
+		"scope": "html",
+		"prefix": "d-burger",
+		"body": [
+			"<button class=\"burger\" aria-label=\"Открыть меню\" aria-expanded=\"false\" data-burger>",
+			"  <span class=\"burger__line\"></span>",
+			"</button>"
+		],
+		"description": "Snippet for burger btn"
+	},
+	"basicform": {
+		"prefix": "d-form",
+		"body": [
+			"<form action=\"#\" class=\"form\">",
+			"  <label class=\"form__label\">",
+			"    <input type=\"text\" name=\"name\" class=\"form__input\" placeholder=\"Имя\">",
+			"  </label>",
+			"  <button class=\"btn form__btn\">Отправить</button>",
+			"</form>"
+		],
+		"description": "Snippet for basic form"
+	},
+	"d-picture": {
+		"prefix": "d-picture",
+		"body": [
+			"<picture><source srcset=\"\" type=\"image/webp\"><img src=\"\" alt=\"\"></picture>"
+		],
+		"description": "html"
+	},
+	"d-tabs": {
+		"prefix": "d-tabs",
+		"description": "html",
+		"body": [
+			"<div class=\"tabs__wrapper\">",
+			"<div class=\"tabs\">",
+			"<a href=\"#tab-1\" class=\"tab tabs--active\"></a>",
+			"<a href=\"#tab-2\" class=\"tab\"></a>",
+			"</div>",
+			"<div class=\"tabs-container\">",
+			"<div class=\"tabs-content tabs-content--active\" id=\"tab-1\">",
+			"</div>",
+			"</div>",
+			"</div>"
+		]
+	}
+}
