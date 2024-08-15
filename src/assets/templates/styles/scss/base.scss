@@ -22,6 +22,18 @@ textarea {
 	outline: none;
 	border: none;
 }
+a {
+	text-decoration: none;
+	display: inline-block;
+}
+p {
+	margin: 0 0 10px;
+}
+img {
+	display: inline-block;
+	max-width: 100%;
+	height: auto;
+}
 body {
 	font-family: Roboto, sans-serif;
 	font-size: rem(16);
@@ -36,7 +48,7 @@ button {
 	cursor: pointer;
 }
 .container {
-	max-width: rem(1140);
+	max-width: rem(1300);
 	margin: 0 auto;
 	padding: 0 15px;
 }
